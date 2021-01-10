@@ -1,0 +1,261 @@
+/* GENERAL CSS: */
+
+.content {
+  margin: auto;
+  width: 70%;
+  background-color:RGB(240,255,240);
+}
+
+body {
+  background-color:RGB(208,240,192);
+}
+
+hr {
+  height: 4px;
+  border: none;
+  background: black;
+  top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+/* TEXT CSS: */
+
+.header h1 {
+  font-family: Georgia;
+  font-variant: small-caps;
+  font-size: 35px;
+  padding: 25px;
+  color: black;
+  position: relative;
+  top: 16px;
+  left: 10px;
+}
+
+h2 {
+  font-family: Georgia;
+  color: black;
+  padding: 10px;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+h3 {
+  font-family: Georgia;
+  color: black;
+  padding: 10px;
+  padding-left: 50px;
+
+}
+
+p {
+  font-family: Georgia;
+  color: black;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 200%;
+}
+
+.leftList p {
+
+  margin-top: 5px;
+  padding-top: 5px;
+
+}
+
+.rightList p{
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+
+/* IMAGE CSS: */
+
+.header img {
+  float: left;
+  height: 100px;
+  margin: 25px;
+}
+
+.bigImage {
+  display: block;
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.leftImage {
+  width:250px;
+  float: left;
+  padding-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.rightImage {
+  width:250px;
+  float: right;
+  padding-right: 50px;
+}
+
+.rightImage2 {
+  width:450px;
+  float: right;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.rightImage3 {
+  width:275px;
+  float: right;
+  padding-right: 100px;
+  padding-left: 50px;
+}
+
+.rightImage4 {
+  width:250px;
+  float: right;
+  padding-right: 25px;
+}
+
+.centerImage {
+  width:90%;
+  align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+/* NAVIGATION CSS: */
+
+nav {
+  margin-left: 150px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  padding: 5px 7px;
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 15%;
+  display: inline-block;
+}
+
+nav li a:link, a:visited {
+  color: #000000;
+}
+
+nav ul li a:hover {
+  color: RGB(208,240,192);
+}
+
+
+/* FOOTER CSS: */
+
+.invisibleText {
+  color: RGB(240,255,240);
+}
+
+.pEnd {
+  text-align: right;
+  line-height: 150%;
+  padding: 30px;
+  padding-top: 10px;
+}
+
+
+/* ERROR PAGE CSS: */
+
+.errorImage {
+  display: block;
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.errorContent {
+  height: 750px;
+  background-image: url('error.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: Trebuchet MS;
+  font-size: 45px;
+  padding-right: 400px;
+  padding-top: 25px;
+}
+
+.errorContent a{
+  color: RGB(255,99,71);
+  text-decoration: underline;
+}
+
+.errorContent p a:hover {
+  color: #FF851B;
+}
+
+.errorContent h1 {
+  padding-right: 50px;
+}
+
+.errorText {
+  font-family: Trebuchet MS;
+  font-size: 20px;
+}
+
+.errorEmail {
+  font-size: 20px;
+  margin-top: 200px;
+  text-align: right;
+}
+
+/* LIST CSS: */
+
+ul li {
+  font-family: Georgia;
+  color: black;
+  margin-left: 50px;
+  padding: 5px;
+}
+
+.leftList{
+
+  float: left;
+  margin: 35px;
+  margin-bottom: 60px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-right: 50px;
+
+}
+
+.rightList {
+  margin: 25px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+/* LINK CSS: */
+
+a:link, a:visited {
+  color: #000000;
+}
+
+a:hover {
+  color: #AAAAAA;
+}
+
+.header a{
+  text-decoration: none;
+}
